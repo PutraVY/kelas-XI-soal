@@ -55,16 +55,19 @@ const soal = [
 let currentQuestion = 0;
 let score = 0;
 let timer;
-let timeLeft = 1200; // 20 menit dalam detik
+let timeLeft = 1200;
+let shuffledQuestions = [];
 
 document.addEventListener('DOMContentLoaded', () => {
+    shuffledQuestions = shuffleArray([...soal]);
+    
     loadQuestion();
     document.getElementById('next-btn').addEventListener('click', nextQuestion);
     startTimer();
 });
 
 function loadQuestion() {
-    if (currentQuestion >= soal.length) {
+    if (currentQuestion >= shuffledQuestions.length) {
         endQuiz();
         return;
     }
@@ -74,25 +77,20 @@ function loadQuestion() {
     const feedbackElement = document.getElementById('feedback');
     const nextButton = document.getElementById('next-btn');
 
-    // Reset UI
     feedbackElement.textContent = '';
     feedbackElement.style.color = '';
     optionsContainer.innerHTML = '';
     nextButton.disabled = true;
 
-    // Parse soal
-    const parts = soal[currentQuestion].split('|');
+    const parts = shuffledQuestions[currentQuestion].split('|');
     const question = parts[0];
     const options = parts.slice(1, 6);
     const correctAnswer = parts[6];
 
-    // Tampilkan pertanyaan
     questionElement.textContent = `Soal ${currentQuestion + 1}: ${question}`;
 
-    // Acak pilihan jawaban
     const shuffledOptions = shuffleArray([...options]);
 
-    // Tampilkan pilihan
     shuffledOptions.forEach((option, index) => {
         const button = document.createElement('button');
         button.className = 'option-btn';
@@ -102,65 +100,11 @@ function loadQuestion() {
     });
 }
 
-function checkAnswer(selectedOption, correctAnswer) {
-    const feedbackElement = document.getElementById('feedback');
-    const options = document.querySelectorAll('.option-btn');
-    const nextButton = document.getElementById('next-btn');
-
-    // Nonaktifkan semua tombol pilihan
-    options.forEach(option => {
-        option.disabled = true;
-    });
-
-    if (selectedOption === correctAnswer) {
-        feedbackElement.textContent = "Lanjut!";
-        feedbackElement.style.color = "green";
-        score++;
-        document.getElementById('score').textContent = `Skor: ${score}`;
-    } else {
-        feedbackElement.textContent = `Salah! Jawaban benar: ${correctAnswer}`;
-        feedbackElement.style.color = "red";
-    }
-
-    // Aktifkan tombol next
-    nextButton.disabled = false;
-}
-
-function nextQuestion() {
-    currentQuestion++;
-    loadQuestion();
-}
-
-function endQuiz() {
-    clearInterval(timer);
-    document.getElementById('question').textContent = `Kuis Selesai! Skor Anda: ${score}/${soal.length}`;
-    document.getElementById('options').innerHTML = '';
-    document.getElementById('next-btn').style.display = 'none';
-    document.getElementById('feedback').textContent = "Terima kasih telah mengerjakan kuis!";
-}
-
-function startTimer() {
-    timer = setInterval(() => {
-        timeLeft--;
-        updateTimerDisplay();
-
-        if (timeLeft <= 0) {
-            clearInterval(timer);
-            endQuiz();
-        }
-    }, 1000);
-}
-
-function updateTimerDisplay() {
-    const minutes = Math.floor(timeLeft / 60);
-    const seconds = timeLeft % 60;
-    document.getElementById('timer').textContent = `Sisa waktu: ${minutes.toString().padStart(2, '0')}:${seconds.toString().padStart(2, '0')}`;
-}
-
 function shuffleArray(array) {
-    for (let i = array.length - 1; i > 0; i--) {
+    const newArray = [...array];
+    for (let i = newArray.length - 1; i > 0; i--) {
         const j = Math.floor(Math.random() * (i + 1));
-        [array[i], array[j]] = [array[j], array[i]];
+        [newArray[i], newArray[j]] = [newArray[j], newArray[i]];
     }
-    return array;
+    return newArray;
 }
