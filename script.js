@@ -57,10 +57,10 @@ let score = 0;
 let timer;
 let timeLeft = 1200;
 let shuffledQuestions = [];
+let currentCorrectAnswer = "";
 
 document.addEventListener('DOMContentLoaded', () => {
     shuffledQuestions = shuffleArray([...soal]);
-    
     loadQuestion();
     document.getElementById('next-btn').addEventListener('click', nextQuestion);
     startTimer();
@@ -85,7 +85,7 @@ function loadQuestion() {
     const parts = shuffledQuestions[currentQuestion].split('|');
     const question = parts[0];
     const options = parts.slice(1, 6);
-    const correctAnswer = parts[6];
+    currentCorrectAnswer = parts[6];
 
     questionElement.textContent = `Soal ${currentQuestion + 1}: ${question}`;
 
@@ -95,16 +95,29 @@ function loadQuestion() {
         const button = document.createElement('button');
         button.className = 'option-btn';
         button.textContent = `${String.fromCharCode(97 + index)}) ${option}`;
-        button.addEventListener('click', () => checkAnswer(option, correctAnswer));
+        button.addEventListener('click', () => checkAnswer(option));
         optionsContainer.appendChild(button);
     });
 }
 
-function shuffleArray(array) {
-    const newArray = [...array];
-    for (let i = newArray.length - 1; i > 0; i--) {
-        const j = Math.floor(Math.random() * (i + 1));
-        [newArray[i], newArray[j]] = [newArray[j], newArray[i]];
+function checkAnswer(selectedOption) {
+    const feedbackElement = document.getElementById('feedback');
+    const options = document.querySelectorAll('.option-btn');
+    const nextButton = document.getElementById('next-btn');
+
+    options.forEach(option => {
+        option.disabled = true;
+    });
+
+    if (selectedOption === currentCorrectAnswer) {
+        feedbackElement.textContent = "Lanjut!";
+        feedbackElement.style.color = "green";
+        score++;
+        document.getElementById('score').textContent = `Skor: ${score}`;
+    } else {
+        feedbackElement.textContent = `Salah! Jawaban benar: ${currentCorrectAnswer}`;
+        feedbackElement.style.color = "red";
     }
-    return newArray;
+
+    nextButton.disabled = false;
 }
