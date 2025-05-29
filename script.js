@@ -52,22 +52,23 @@ const soal = [
     "Sifat budaya yang dinamis dan turun-temurun disebut?|Adaptif|Historis|Material|Spiritual|Modern|Historis",
 ];
 
-let currentQuestion = 0;
+let currentQuestionIndex = 0;
 let score = 0;
 let timer;
 let timeLeft = 1200;
 let shuffledQuestions = [];
-let currentCorrectAnswer = "";
+let currentQuestionData = {};
 
 document.addEventListener('DOMContentLoaded', () => {
     shuffledQuestions = shuffleArray([...soal]);
+    
     loadQuestion();
     document.getElementById('next-btn').addEventListener('click', nextQuestion);
     startTimer();
 });
 
 function loadQuestion() {
-    if (currentQuestion >= shuffledQuestions.length) {
+    if (currentQuestionIndex >= shuffledQuestions.length) {
         endQuiz();
         return;
     }
@@ -82,14 +83,17 @@ function loadQuestion() {
     optionsContainer.innerHTML = '';
     nextButton.disabled = true;
 
-    const parts = shuffledQuestions[currentQuestion].split('|');
-    const question = parts[0];
-    const options = parts.slice(1, 6);
-    currentCorrectAnswer = parts[6];
+    const parts = shuffledQuestions[currentQuestionIndex].split('|');
 
-    questionElement.textContent = `Soal ${currentQuestion + 1}: ${question}`;
+    currentQuestionData = {
+        question: parts[0],
+        options: parts.slice(1, 6),
+        answer: parts[6]
+    };
 
-    const shuffledOptions = shuffleArray([...options]);
+    questionElement.textContent = `Soal ${currentQuestionIndex + 1}: ${currentQuestionData.question}`;
+
+    const shuffledOptions = shuffleArray([...currentQuestionData.options]);
 
     shuffledOptions.forEach((option, index) => {
         const button = document.createElement('button');
@@ -109,15 +113,55 @@ function checkAnswer(selectedOption) {
         option.disabled = true;
     });
 
-    if (selectedOption === currentCorrectAnswer) {
+    if (selectedOption === currentQuestionData.answer) {
         feedbackElement.textContent = "Lanjut!";
         feedbackElement.style.color = "green";
         score++;
         document.getElementById('score').textContent = `Skor: ${score}`;
     } else {
-        feedbackElement.textContent = `Salah! Jawaban benar: ${currentCorrectAnswer}`;
+        feedbackElement.textContent = `Salah! Jawaban benar: ${currentQuestionData.answer}`;
         feedbackElement.style.color = "red";
     }
 
     nextButton.disabled = false;
+}
+
+function nextQuestion() {
+    currentQuestionIndex++;
+    loadQuestion();
+}
+
+function endQuiz() {
+    clearInterval(timer);
+    document.getElementById('question').textContent = `Kuis Selesai! Skor Anda: ${score}/${shuffledQuestions.length}`;
+    document.getElementById('options').innerHTML = '';
+    document.getElementById('next-btn').style.display = 'none';
+    document.getElementById('feedback').textContent = "Terima kasih telah mengerjakan kuis!";
+}
+
+function startTimer() {
+    timer = setInterval(() => {
+        timeLeft--;
+        updateTimerDisplay();
+
+        if (timeLeft <= 0) {
+            clearInterval(timer);
+            endQuiz();
+        }
+    }, 1000);
+}
+
+function updateTimerDisplay() {
+    const minutes = Math.floor(timeLeft / 60);
+    const seconds = timeLeft % 60;
+    document.getElementById('timer').textContent = `Sisa waktu: ${minutes.toString().padStart(2, '0')}:${seconds.toString().padStart(2, '0')}`;
+}
+
+function shuffleArray(array) {
+    const newArray = [...array];
+    for (let i = newArray.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [newArray[i], newArray[j]] = [newArray[j], newArray[i]];
+    }
+    return newArray;
 }
