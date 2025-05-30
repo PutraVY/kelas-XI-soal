@@ -1,5 +1,5 @@
 const soal = [
-   "Jepang menyerah kepada Sekutu sebagai pertanda perang dunia kedua di Asia Pasifik berakhir pada?|15 Agustus 1945|10 Juli 1946|14 Agustus 1945|15 Juli 1945|12 Agustus 1944|15 Agustus 1945",
+"Jepang menyerah kepada Sekutu sebagai pertanda perang dunia kedua di Asia Pasifik berakhir pada?|15 Agustus 1945|10 Juli 1946|14 Agustus 1945|15 Juli 1945|12 Agustus 1944|15 Agustus 1945",
 "Perang Pasifik dimulai pada tahun?|1939|1940|1941|1942|1943|1941",
 "Penyebab utama Amerika Serikat ikut terlibat dalam perang Pasifik adalah?|Invasi Jepang ke Amerika Serikat|Serangan Pearl Harbor oleh Jepang|Dukungan Jepang pada Jerman Nazi|Konflik perdagangan antara Jepang dan Amerika Serikat|Tekanan publik Amerika Serikat untuk ikut campur dalam perang|Serangan Pearl Harbor oleh Jepang",
 "Pengaruh perang Pasifik terhadap Indonesia adalah?|Indonesia menjadi koloni Jepang selama perang|Indonesia menjadi tempat pertempuran antara Jepang dan Amerika Serikat|Ekonomi Indonesia merosot karena terganggu oleh perang|Indonesia menjadi pusat perdagangan bagi Jepang dan Amerika Serikat selama perang|Indonesia tidak terpengaruh oleh perang karena netral|Ekonomi Indonesia merosot karena terganggu oleh perang",
