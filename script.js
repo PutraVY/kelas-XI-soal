@@ -22,7 +22,7 @@ const soal = [
 "Sidang pertama BPUPKI dilaksanakan pada?|29 April-1 Mei 1945|29 Juni-1 Juli 1945|29 Mei-1 Juni 1946|29 April-1 Juni 1945|29 Mei-1 Juni 1945|29 Mei-1 Juni 1945",
 "Kondisi buruk yang dialami rakyat Indonesia selama masa penjajahan Belanda memicu gerakan?|Ekspansi|Nasionalis Indonesia|Transformasi pemerintahan|Desentralisasi politik|Imparsial|Nasionalis Indonesia",
 "Invasi Jepang ke Hindia Belanda pada awalnya mengalami perlawanan dari tentara Hindia Belanda yang dibantu oleh?|Tentara Amerika Serikat|Tentara sekutu|Tentara Indonesia|Tentara Tiongkok|Tentara Pasifik|Tentara sekutu",
-"Dasar negara akan dijadikan pedoman pemerintahan dalam suatu negara untuk?|Menjalankan amanat para pahlawan|Menjalankan tugas dan tanggung jawab|Menjalankan cita-cita bangsa|Menjalankan perjuangan panjang pahlawan nasional|Menjalankan cita-cita bangsa",
+"Dasar negara akan dijadikan pedoman pemerintahan dalam suatu negara untuk?|Menjalankan amanat para pahlawan|Menjalankan tugas dan tanggung jawab|Menjalankan cita-cita bangsa|Menjalankan perjuangan panjang pahlawan nasional|Menjalankan masalah|Menjalankan cita-cita bangsa",
 "Tanggal disahkan Pancasila adalah?|17 Agustus 1945|18 Agustus 1945|19 Agustus 1945|20 Agustus 1945|21 Agustus 1945|18 Agustus 1945",
 "Pasukan Belanda pertama kali tiba di Indonesia setelah menolak proklamasi kemerdekaan pada?|September 1945|Oktober 1945|November 1945|Desember 1945|Januari 1946|September 1945",
 "Golongan muda telah mengadakan suatu perundingan di salah satu lembaga di Jalan Pegangsaan Timur Jakarta pada?|15 Agustus 1945|16 Agustus 1945|17 Agustus 1945|18 Agustus 1945|19 Agustus 1945|16 Agustus 1945",
