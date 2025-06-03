@@ -136,7 +136,7 @@ const soal = [
 "Konflik antarnegara karena eksplorasi gas adalah:|rasial|politik|pribadi|ekonomi|internasional|internasional",
 "Konflik politik ditandai oleh:|konflik antar partai|kelompok separatis|sengketa pemilu|penolakan kebijakan|buruh vs pemilik perusahaan|konflik antar partai",
 "Contoh konflik internasional adalah:|Sipadan-Ligitan & buruh-pemilik|Sipadan-Ligitan & batas ZEE|batas ZEE & buruh|demo karyawan & buruh|ZEE & demo karyawan|batas ZEE & buruh",
-"Contoh konflik kelas sosial adalah:|Sipadan & buruh|Sipadan & ZEE|buruh & ZEE|buruh & demo|ZEE & demo|ZEE & demo",
+"Contoh konflik kelas sosial adalah:|Sipadan & buruh|Sipadan & ZEE|buruh & ZEE|buruh & demo|ZEE & demo|buruh & demo",
 "Konflik karena benci & pandangan berbeda disebut:|rasial|politik|pribadi|ekonomi|internasional|pribadi",
 "Yang bukan akibat konflik:|dominasi|perpecahan|kerugian|hubungan makin erat|kehancuran nilai|hubungan makin erat",
 "Salah satu dampak konflik terhadap individu:|dominasi|perpecahan|kerugian|hubungan erat|kehancuran nilai|perpecahan",
