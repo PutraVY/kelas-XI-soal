@@ -168,7 +168,7 @@ const soal = [
 "Bahasa Indonesia ditetapkan sebagai bahasa persatuan pada:|28 Oktober 1928|29 Oktober 1928|1 Juni 1945|17 Agustus 1945|18 Agustus 1945|28 Oktober 1928",
 "Identitas nasional lahir sejak:|organisasi Budi Utomo|penjajahan|proklamasi kemerdekaan|Sumpah Pemuda II|pembentukan BPUPK|organisasi Budi Utomo",
 "Kesepakatan ekstradisi RI-Singapura adalah strategi bidang:|sosial, global|politik, global|politik, regional|pertahanan, global|pertahanan, regional|pertahanan, regional",
-"Ancaman pertahanan tidak langsung disebut:|nyata|hibrida|militer|nirmiliter|belum nyata|belum nyata",
+"Ancaman pertahanan tidak langsung disebut:|nyata|hibrida|militer|nirmiliter|belum nyata|nirmiliter",
 "Strategi untuk cegah ideologi asing adalah:|politik|ideologi|ekonomi|sosial budaya|pertahanan dan keamanan|ideologi",
 "Strategi politik dalam negeri dilakukan melalui:|lapangan kerja|ekonomi nasional|program budaya lokal|sistem politik demokrasi|diplomasi luar negeri|sistem politik demokrasi",
 "Yang bukan strategi ekonomi hadapi ancaman:|iklim usaha|lapangan kerja|pelestarian budaya|teknologi tepat guna|hubungan ekonomi-politik luar negeri|pelestarian budaya",
