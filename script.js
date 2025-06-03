@@ -158,7 +158,7 @@ const soal = [
 "Yang bukan ancaman laut/udara Indonesia:|pembajakan|perompakan|penyelundupan senjata|penyelundupan amunisi|pemindahan patok batas|pemindahan patok batas",
 "Ancaman yang mengganggu ideologi dan dasar negara termasuk bidang:|politik|ideologi|ekonomi|keamanan|pertahanan|ideologi",
 "Yang bukan contoh ancaman politik dari luar negeri:|provokasi|intimidasi|blokade politik|kelompok separatisme|tekanan politik|kelompok separatisme",
-"Bentuk ancaman ekonomi yang berasal dari dalam negeri:|daya saing rendah|pengangguran tinggi|infrastruktur buruk|sistem ekonomi tidak jelas|semua benar|sistem ekonomi tidak jelas",
+"Bentuk ancaman ekonomi yang berasal dari dalam negeri:|daya saing rendah|pengangguran tinggi|infrastruktur buruk|sistem ekonomi tidak jelas|semua benar|semua benar",
 "Faktor pendorong ancaman dari dalam bidang sosial budaya:|tidak terprovokasi|penegakan hukum baik|infrastruktur bagus|ketimpangan ekonomi|pemerataan sejahtera|ketimpangan ekonomi",
 "Identitas budaya didefinisikan sebagai:|ancaman|gangguan|tantangan|identitas budaya|identitas nasional|identitas budaya",
 "Identitas seperti UUD 1945 dan lagu kebangsaan termasuk kategori:|alamiah|lahiriah|kebangsaan|fundamental|instrumental|instrumental",
