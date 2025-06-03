@@ -152,7 +152,7 @@ const soal = [
 "Tantangan dapat berbentuk tindakan fisik maupun nonfisik, dilakukan secara:|manifes atau laten|militer atau hibrida|terbuka atau tertutup|militer atau nonmiliter|nyata atau belum nyata|manifes atau laten",
 "Rendahnya rasa aman masyarakat terhadap gangguan merupakan:|ancaman|gangguan|tantangan|disintegrasi|integrasi nasional|gangguan",
 "Myron Weiner menyebutkan lima tipe integrasi, berikut yang bukan adalah:|nilai|norma|wilayah|elit-massa|tingkah laku|norma",
-"Simbol negara yang mencerminkan konsensus nasional adalah:|Pancasila|Sumpah Pemuda|UUD 1945|bendera Merah Putih|Bhinneka Tunggal Ika|UUD 1945",
+"Simbol negara yang mencerminkan konsensus nasional adalah:|Pancasila|Sumpah Pemuda|UUD 1945|bendera Merah Putih|Bhinneka Tunggal Ika|Pancasila",
 "Blokade wilayah NKRI adalah bentuk:|agresi|gangguan|tantangan|hambatan|sabotase|agresi",
 "Contoh sabotase terhadap negara:|blokade laut|provokasi politik|peletakan batu di rel|penggelapan dana|demonstrasi|peletakan batu di rel",
 "Yang bukan ancaman laut/udara Indonesia:|pembajakan|perompakan|penyelundupan senjata|penyelundupan amunisi|pemindahan patok batas|pemindahan patok batas",
