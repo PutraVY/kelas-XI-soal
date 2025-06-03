@@ -56,70 +56,38 @@ const soal = [
 "Peran pendidikan dalam mengatasi konflik adalah:|meningkatkan ketidakpahaman|memberikan pemahaman tentang toleransi|memperburuk stereotip|mengabaikan perbedaan|menyebarkan kebencian|memberikan pemahaman tentang toleransi",
 
 "Pentingnya toleransi dalam masyarakat beragam adalah:|untuk menciptakan persaingan|untuk menciptakan kedamaian dan kerukunan|agar konflik tetap ada|solusi yang mengarah pada konflik lebih lanjut|solusi yang tidak diharapkan|untuk menciptakan kedamaian dan kerukunan",
-"Berikut ini yang bukan sikap dan perilaku dalam menjaga NKRI adalah:|patuh pada peraturan|membayar pajak|ikut kegiatan gotong royong|melanggar peraturan kedaulatan bangsa|menghormati simbol negara|melanggar peraturan kedaulatan bangsa",
-
-"Semboyan Bhinneka Tunggal Ika berasal dari kitab:|Mahabharata|Ramayana|Arthasastra|Sutasoma|Sutasoma",
-
-"Landasan hukum persatuan dan kesatuan secara konstitusional dalam UUD NKRI 1945 adalah:|Pasal 2 Ayat 2|Pasal 3 Ayat 3|Pasal 4 Ayat 4|Pasal 1 Ayat 2|Pasal 1 Ayat 1",
-
-"Berikut yang merupakan contoh dari paham provinsialisme adalah:|mementingkan kepentingan nasional|mengutamakan kerjasama internasional|memperjuangkan keadilan sosial|mementingkan kelompok agama|mementingkan kepentingan daerah sendiri",
-
-"Kemerdekaan bangsa Indonesia dicapai berkat adanya:|bantuan asing|kekuatan militer|diplomasi internasional|kerja sama luar negeri|persatuan dan kesatuan",
-
-"Mengakui bahwa Indonesia mempunyai berbagai suku, ras, budaya, serta kebiasaan yang berbeda-beda merupakan prinsip:|Chauvinisme|Provinsialisme|Nasionalisme|Extrimisme|Bhinneka Tunggal Ika",
-
-"Paham yang mengagung-agungkan bangsa atau negara sendiri dan memandang rendah bangsa lain disebut:|Nasionalisme|Patriotisme|Provinsialisme|Ekstremisme|Chauvinisme",
-
-"Kerukunan hidup bermasyarakat merupakan syarat untuk:|meningkatkan individualisme|menghilangkan keragaman budaya|menjaga stabilitas harga|menghindari persaingan|menjaga keutuhan bangsa dan negara",
-
-"Salah satu faktor pendorong persatuan dan kesatuan bangsa adalah:|adanya perbedaan budaya|persaingan ekonomi|dominasi satu suku bangsa|perbedaan agama|adanya rasa senasib dan seperjuangan yang diakibatkan oleh faktor sejarah",
-
-"Berikut ini faktor integratif bangsa sebagai berkat persatuan, kecuali:|Bahasa Indonesia|Pancasila|Lambang negara|Lagu kebangsaan|Bahasa daerah",
-
-"Pandangan yang melampaui batas kewajaran adalah:|Moderasi|Toleransi|Demokrasi|Sosialisme|Extrimisme",
-
-"Kini menjadi semboyan nasional, Bhinneka Tunggal Ika sudah ada sejak zaman dahulu kala yaitu sejak masa Kerajaan:|Sriwijaya|Singasari|Kutai|Mataram|Majapahit",
-
-"Penerapan nilai persatuan dan kesatuan yang menanamkan kepribadian yang harus dilakukan sejak dini merupakan penanaman yang dilakukan dalam bidang:|Politik|Ekonomi|Sosial|Hukum|Pendidikan",
-
-"Tiap-tiap warga negara berhak dan wajib ikut serta dalam usaha bela negara, hal ini merupakan bunyi dari UUD NRI 1945:|Pasal 28 Ayat 1|Pasal 29 Ayat 2|Pasal 30 Ayat 1|Pasal 31 Ayat 1|Pasal 27 Ayat 3",
-
-"Tantangan Indonesia dalam menjaga keutuhan NKRI antara lain:|kemajuan teknologi|stabilitas politik|banyaknya lembaga pendidikan|masyarakat digital|meningkatnya kesenjangan sosial ekonomi",
-
-"Hambatan dalam pembangunan ekonomi Indonesia dapat disebabkan oleh berbagai faktor seperti keterbatasan:|kebijakan luar negeri|sumber daya alam|teknologi|sistem pendidikan|infrastruktur dan modal",
-
-"Contoh ancaman terhadap keselamatan bangsa Indonesia dapat berupa:|peningkatan ekspor|kerjasama internasional|invasi ekonomi|perdagangan bebas|terjadinya bencana alam seperti banjir dan gempa bumi",
-
-"Strategi utama dalam menghadapi ancaman di bidang sosial budaya adalah memelihara:|dominasi budaya asing|penghapusan budaya lokal|isolasi budaya|budaya instan|keseimbangan antara kemajuan teknologi dan nilai-nilai budaya",
-
-"Dalam bidang ekonomi, strategi yang efektif untuk menghadapi ancaman adalah:|meningkatkan impor|mengurangi produksi dalam negeri|menghindari perdagangan internasional|menjaga nilai tukar|menjaga stabilitas harga pasar",
-
-"Untuk menghadapi ancaman di bidang pertahanan dan keamanan, strategi yang paling tepat adalah:|mengurangi anggaran pertahanan|menghindari kerjasama militer|mengandalkan bantuan asing|membatasi latihan militer|memperkuat TNI dan komponen cadangan",
-
-"Dalam bidang politik, strategi yang tepat untuk menghadapi ancaman adalah:|membatasi kebebasan berpendapat|menghindari pemilu|mengurangi transparansi pemerintah|menghilangkan partai politik|meningkatkan partisipasi politik masyarakat",
-
-"Spionase merupakan kegiatan dari inteligen yang dilakukan untuk mendapatkan:|dukungan politik|popularitas internasional|pengaruh ekonomi|akses jaringan sosial|informasi atau rahasia militer suatu negara",
-
-"Masyarakat Indonesia terdiri atas berbagai golongan, suku, etnis, ras, agama, dan budaya. Hal tersebut merupakan keberagaman dalam hal:|politik|gender|ekonomi|pertahanan dan keamanan|sosial budaya",
-
-"Masyarakat yang memiliki beragam kelompok sosial dengan sistem norma dan kebudayaan yang berbeda-beda disebut masyarakat:|majemuk|homogen|tradisional|kontemporer|multicultural",
-
-"Masyarakat yang memiliki kelompok sosial kecil dan tinggal di wilayah teritorial kecil adalah:|majemuk|homogen|heterogen|modern|tradisional",
-
-"Masyarakat dengan pemikiran rasional dan bersifat individualistis adalah:|majemuk|homogen|perdesaan|multicultural|perkotaan",
-
-"Pengertian gender adalah:|sifat alami|jenis kelamin biologis|kode etik masyarakat|perilaku sosial|gender",
-
-"Contoh ketidakadilan gender yang bukan adalah:|kekerasan|stereotipe|subordinasi|marginalisasi|kesetaraan",
-
-"Contoh stereotipe yang bukan adalah:|laki-laki tidak seharusnya menunjukkan emosi|anggapan perempuan sebagai makhluk yang lemah|perempuan dianggap hanya bisa menjadi ibu rumah tangga|perempuan tidak mampu mengambil keputusan penting|tidak memberikan hak waris kepada perempuan",
-
-"Pengertian konflik adalah:|asimilasi|akulturasi|konsolidasi|persaingan|konflik",
-
-"Faktor penyebab konflik yang bukan adalah:|perubahan sosial|perbedaan kebudayaan|perbedaan kepentingan|perbedaan antarindividu|perbedaan wilayah",
-
-"Sikap menganggap kebudayaan sukunya lebih baik disebut:|fanatisme|diskriminatif|eksklusivisme|primordialisme|etnosentrisme",
-
+"Berikut ini yang bukan sikap dan perilaku dalam menjaga NKRI adalah:|patuh pada peraturan|menghormati simbol negara|ikut serta dalam bela negara|membayar pajak|melanggar peraturan kedaulatan bangsa|melanggar peraturan kedaulatan bangsa",
+"Semboyan Bhinneka Tunggal Ika berasal dari kitab:|Mahabharata|Ramayana|Arthasastra|Negarakertagama|Sutasoma|Sutasoma",
+"Landasan hukum persatuan dan kesatuan secara konstitusional dalam UUD NKRI 1945 adalah:|Pasal 2 Ayat 2|Pasal 3 Ayat 3|Pasal 4 Ayat 4|Pasal 5 Ayat 1|Pasal 1 Ayat 1|Pasal 1 Ayat 1",
+"Berikut yang merupakan contoh dari paham provinsialisme adalah:|mementingkan kepentingan nasional|mengutamakan kerjasama internasional|memperjuangkan keadilan sosial|mendukung kebijakan pemerintah pusat|mementingkan kepentingan daerah sendiri|mementingkan kepentingan daerah sendiri",
+"Kemerdekaan bangsa Indonesia dicapai berkat adanya:|bantuan asing|kekuatan militer|diplomasi internasional|isolasi dari dunia luar|persatuan dan kesatuan|persatuan dan kesatuan",
+"Mengakui bahwa Indonesia mempunyai berbagai suku, ras, budaya, serta kebiasaan yang berbeda-beda merupakan prinsip:|Chauvinisme|Provinsialisme|Extrimisme|Sekularisme|Bhinneka Tunggal Ika|Bhinneka Tunggal Ika",
+"Paham yang mengagung-agungkan bangsa atau negara sendiri dan memandang rendah bangsa lain disebut:|Nasionalisme|Patriotisme|Extrimisme|Sekularisme|Chauvinisme|Chauvinisme",
+"Kerukunan hidup bermasyarakat merupakan syarat untuk:|meningkatkan individualisme|memperbesar kesenjangan sosial|menghilangkan keragaman budaya|meningkatkan kesejahteraan pribadi|menjaga keutuhan bangsa dan negara|menjaga keutuhan bangsa dan negara",
+"Salah satu faktor pendorong persatuan dan kesatuan bangsa adalah:|adanya perbedaan yang tajam|keterbatasan sumber daya alam|dominasi satu suku bangsa|perbedaan agama|adanya rasa senasib dan seperjuangan yang diakibatkan oleh faktor sejarah|adanya rasa senasib dan seperjuangan yang diakibatkan oleh faktor sejarah",
+"Berikut ini faktor integratif bangsa sebagai berkat persatuan, kecuali:|Bahasa Indonesia|Pancasila|Lambang negara|Lagu kebangsaan|Bahasa daerah|Bahasa daerah",
+"Pandangan yang melampaui batas kewajaran adalah:|Moderasi|Toleransi|Demokrasi|Sosialisme|Extrimisme|Extrimisme",
+"Kini menjadi semboyan nasional, Bhinneka Tunggal Ika sudah ada sejak zaman dahulu kala yaitu sejak masa Kerajaan:|Sriwijaya|Singasari|Kutai|Mataram|Majapahit|Majapahit",
+"Penerapan nilai persatuan dan kesatuan yang menanamkan kepribadian yang harus dilakukan sejak dini merupakan penanaman yang dilakukan dalam bidang:|Politik|Ekonomi|Sosial|Hukum|Pendidikan|Pendidikan",
+"Tiap-tiap warga negara berhak dan wajib ikut serta dalam usaha bela negara, hal ini merupakan bunyi dari UUD NRI 1945:|Pasal 28 Ayat 1|Pasal 29 Ayat 2|Pasal 30 Ayat 1|Pasal 31 Ayat 1|Pasal 27 Ayat 3|Pasal 27 Ayat 3",
+"Tantangan Indonesia dalam menjaga keutuhan NKRI antara lain:|ketersediaan lapangan kerja|stabilitas politik|kemajuan teknologi|pembangunan infrastruktur|meningkatnya kesenjangan sosial ekonomi|meningkatnya kesenjangan sosial ekonomi",
+"Hambatan dalam pembangunan ekonomi Indonesia dapat disebabkan oleh berbagai faktor seperti keterbatasan:|sumber daya manusia|kreativitas|kebijakan pemerintah|teknologi|infrastruktur dan modal|infrastruktur dan modal",
+"Contoh ancaman terhadap keselamatan bangsa Indonesia dapat berupa:|perkembangan teknologi|peningkatan ekspor|kerjasama internasional|perdagangan bebas|terjadinya bencana alam seperti banjir dan gempa bumi|terjadinya bencana alam seperti banjir dan gempa bumi",
+"Strategi utama dalam menghadapi ancaman di bidang sosial budaya adalah memelihara:|dominasi budaya asing|penghapusan budaya lokal|isolasi budaya|modernisasi budaya|keseimbangan antara kemajuan teknologi dan nilai-nilai budaya|keseimbangan antara kemajuan teknologi dan nilai-nilai budaya",
+"Dalam bidang ekonomi, strategi yang efektif untuk menghadapi ancaman adalah:|meningkatkan impor|mengurangi produksi dalam negeri|menghindari perdagangan internasional|mengandalkan bantuan luar negeri|menjaga stabilitas harga pasar|menjaga stabilitas harga pasar",
+"Untuk menghadapi ancaman di bidang pertahanan dan keamanan, strategi yang paling tepat adalah:|mengurangi anggaran pertahanan|menghindari kerjasama militer|mengandalkan bantuan asing|membatasi latihan militer|memperkuat TNI dan komponen cadangan|memperkuat TNI dan komponen cadangan",
+"Dalam bidang politik, strategi yang tepat untuk menghadapi ancaman adalah:|membatasi kebebasan berpendapat|menghindari pemilu|mengurangi transparansi pemerintah|menghilangkan partai politik|meningkatkan partisipasi politik masyarakat|meningkatkan partisipasi politik masyarakat",
+"Spionase merupakan kegiatan dari inteligen yang dilakukan untuk mendapatkan:|dukungan politik|popularitas internasional|pengaruh ekonomi|akses jaringan sosial|informasi atau rahasia militer suatu negara|informasi atau rahasia militer suatu negara",
+"Masyarakat Indonesia terdiri atas berbagai golongan, suku, etnis, ras, agama, dan budaya. Hal tersebut merupakan keberagaman dalam hal:|politik|gender|ekonomi|pertahanan dan keamanan|sosial budaya|sosial budaya",
+"Masyarakat yang memiliki beragam kelompok sosial dengan sistem norma dan kebudayaan yang berbeda-beda disebut masyarakat:|majemuk|homogen|heterogen|tradisional|multicultural|multicultural",
+"Masyarakat yang memiliki kelompok sosial kecil dan tinggal di wilayah teritorial kecil adalah:|majemuk|homogen|heterogen|modern|tradisional|tradisional",
+"Masyarakat dengan pemikiran rasional dan bersifat individualistis adalah:|majemuk|homogen|perdesaan|multicultural|perkotaan|perkotaan",
+"Pengertian gender adalah:|sifat alami|jenis kelamin biologis|kode etik masyarakat|perilaku sosial|gender|gender",
+"Contoh ketidakadilan gender yang bukan adalah:|kekerasan|stereotipe|subordinasi|marginalisasi|kesetaraan|kesetaraan",
+"Contoh stereotipe yang bukan adalah:|laki-laki tidak seharusnya menunjukkan emosi|anggapan perempuan sebagai makhluk yang lemah|perempuan dianggap hanya bisa menjadi ibu rumah tangga|perempuan tidak mampu mengambil keputusan penting|tidak memberikan hak waris kepada perempuan|tidak memberikan hak waris kepada perempuan",
+"Pengertian konflik adalah:|asimilasi|akulturasi|konsolidasi|persaingan|konflik|konflik",
+"Faktor penyebab konflik yang bukan adalah:|perubahan sosial|perbedaan kebudayaan|perbedaan kepentingan|perbedaan antarindividu|perbedaan wilayah|perbedaan wilayah",
+"Sikap menganggap kebudayaan sukunya lebih baik disebut:|fanatisme|diskriminatif|eksklusivisme|primordialisme|etnosentrisme|etnosentrisme",
 "Masyarakat Indonesia terdiri atas berbagai golongan, suku, etnis (suku bangsa), ras, agama, dan budaya. Mereka hidup tersebar di berbagai wilayah Negara Indonesia. Mereka juga hidup dan berinteraksi dengan masyarakat internasional, baik secara langsung maupun tidak langsung. Hal tersebut merupakan keberagaman dalam hal:|politik|gender|ekonomi|sosial budaya|pertahanan dan keamanan|sosial budaya",
 "Masyarakat yang memiliki beragam kelompok sosial dengan sistem norma dan kebudayaan yang berbeda-beda serta memiliki anggota yang terdiri atas berbagai golongan, suku, etnis, ras, agama dan budaya merupakan masyarakat:|majemuk|homogen|heterogen|tradisional|multicultural|majemuk",
 "Masyarakat yang memiliki kelompok sosial yang kecil dan biasanya tinggal di kawasan/ wilayah/teritorial kecil adalah masyarakat:|majemuk|homogen|heterogen|tradisional|multicultural|heterogen",
